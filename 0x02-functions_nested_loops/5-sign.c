@@ -2,7 +2,7 @@
 /**
  * print_sign - check the code
  * @n: number to be cheked
- * Return: 1 if greater than zero or -1 if  greater than zero or 0 for anything else
+ * Return: 1 if positive or -1 if  negative or 0 for anything else
  */
 
 int print_sign(int n)
