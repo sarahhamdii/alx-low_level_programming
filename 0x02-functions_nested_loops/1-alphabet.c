@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - check the code 
+ * print_alphabet - check the code
  *
  * Return: void
  */
