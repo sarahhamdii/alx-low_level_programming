@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _print_sign - check the code
- * @n: number
+ * print_sign - check the code
+ * @n: number to be cheked
  * Return: 1 if greater than zero or -1 if  greater than zero or 0 for anything else
  */
 
