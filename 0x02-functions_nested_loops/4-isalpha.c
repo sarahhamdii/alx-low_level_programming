@@ -5,7 +5,7 @@
  * Return: 1 if it  lowercase or uppercase or 0 for any thing else
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (c >= 98; c <= 122) || ( c >= 65; c<=90)
 	{
