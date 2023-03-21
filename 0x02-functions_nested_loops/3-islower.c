@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower (c) - check the code
- *
- * Retuen: 0 && 1
+ * _islower - check the code
+ * @c: character to be checked
+ * Retuen: 1 for lowercase character || 0 for anything else
  */
 
 int _islower(int c)
