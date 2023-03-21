@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * islower - check the code
+ * _islower (c) - check the code
  *
  * Retuen: 0 && 1
  */
