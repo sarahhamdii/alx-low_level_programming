@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * * main - check the code.
  *
@@ -16,7 +17,7 @@ int main(void)
 		{
 			z += i;
 		}
-		i++
+		i++;
 	}
 	printf("%d\n", z);
 	return (0);
