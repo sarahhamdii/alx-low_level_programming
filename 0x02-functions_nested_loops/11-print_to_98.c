@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - check
- * @n; number
+ * @n: number
  * Return: void
  */
 
