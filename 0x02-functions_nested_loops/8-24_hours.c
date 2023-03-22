@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * jack_bauer - check
- * @n: minute of the day
+ * 
  * Return: void
  */
 
 void jack_bauer(void)
 {
-	int a, b, c, d;
+	char a, b, c, d;
 
 	for (a = 48; a <= 50; a++)
 	{
