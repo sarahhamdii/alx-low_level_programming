@@ -1,13 +1,16 @@
 #include "main.h"
 /**
  * jack_bauer - check
- * 
+ *
  * Return: void
  */
 
 void jack_bauer(void)
 {
-	char a, b, c, d;
+	char a;
+	char b;
+	char c;
+	char d;
 
 	for (a = 48; a <= 50; a++)
 	{
