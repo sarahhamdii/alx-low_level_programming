@@ -7,23 +7,24 @@
 
 void times_table(void)
 {
-	char a;
-	char b;
-	char c;
-	char d;
+	int n;
+	int m;
+	int num;
+	int i;
 
-	for (a = 48; a <= 57 ;a++)
+	m = 0;
+	for (i = 48; i <= 57 ;i++)
 	{
-		for (b = 48; b <= 57;b++)
+		for (n = 48; n <= 57;n++)
 		{
-			c = a * b
-			if ((c / 10) != 0)
-				_putchar('0' + (c / 10);
+			num = n * m;
+			if ((num / 10) != 0)
+				_putchar('0' + (num / 10);
 			else
-				if (a != 0)
+				if (n != 0)
 					_putchar (' ');
 
-			_putchar('0' + (c %10));
+			_putchar('0' + (num %10));
 			if (n != 9)
 			{
 				_putchar (',');
@@ -31,6 +32,6 @@ void times_table(void)
 			}
 		}
 		_putchar ('\n')
-		b = b + 1;
+		m = m + 1;
 	}
 }
