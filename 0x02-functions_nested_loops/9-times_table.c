@@ -13,9 +13,9 @@ void times_table(void)
 	int i;
 
 	m = 0;
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (n = 48; n <= 57 ;n++)
+		for (n = 0; n <= 9; n++)
 		{
 			num = n * m;
 			if ((num / 10) != 0)
