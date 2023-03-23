@@ -2,13 +2,13 @@
 
 /**
  * _isupper - checked
- * @c: number
+ * @c: character
  * Return: 1 if upper or 0 for anything else
  */
 
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
