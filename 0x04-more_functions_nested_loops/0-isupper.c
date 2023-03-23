@@ -3,8 +3,8 @@
 
 /**
  * _isupper - checked
- *
- * Return: void
+ * @c: character
+ * Return: 1 if upper or 0 for anything else
  */
 
 int _isupper(int c)
