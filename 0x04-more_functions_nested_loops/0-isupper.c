@@ -3,7 +3,7 @@
 
 /**
  * _isupper - checked
- * @c: character
+ * @c: number
  * Return: 1 if upper or 0 for anything else
  */
 
