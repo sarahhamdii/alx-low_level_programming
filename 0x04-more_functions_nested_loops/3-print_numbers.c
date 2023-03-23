@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - check the code
- * @c: character
+ *
  * Return: void
  */
 
