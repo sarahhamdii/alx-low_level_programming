@@ -2,13 +2,13 @@
 
 /**
  * _isdigit - check
- * @c: character
+ * @x: number
  * Return: 1 for digit or 0 for anything else
  */
 
-int _isdigit(int c)
+int _isdigit(int x)
 {
-	if (c >= '0'; c <= '9')
+	if (x >= '0'; x <= '9')
 	{
 		return (1);
 	}
