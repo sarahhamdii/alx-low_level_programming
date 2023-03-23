@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _isdigit - check
  * @c: character
  * Return: 1 for digit or 0 for anything else
  */
