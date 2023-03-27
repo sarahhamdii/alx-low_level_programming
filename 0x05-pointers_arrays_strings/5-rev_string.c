@@ -4,7 +4,7 @@
 /**
  * rev_string - check the code
  * @s: string
- * Return: s
+ * Return: void
  */
 
 void rev_string(char *s)
