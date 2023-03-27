@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * puts_half - check the code
+ * @str: string
+ * Return: void
  */
 
 void puts_half(char *str)
