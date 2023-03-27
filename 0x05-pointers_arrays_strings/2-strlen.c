@@ -4,7 +4,7 @@
 /**
  * _strlen - check the code
  * @s: length of a string
- * Return: lenght
+ * Return: length
  */
 
 int _strlen(char *s)
@@ -13,5 +13,5 @@ int _strlen(char *s)
 
 	while (*s++)
 		length++;
-	return (lenght);
+	return (length);
 }
