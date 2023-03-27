@@ -2,7 +2,7 @@
 
 /**
  * _puts - check the code
- * @str: character 
+ * @str: character
  * Return: void
  */
 
