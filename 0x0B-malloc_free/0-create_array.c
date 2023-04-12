@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)
 	if (ar == NULL)
 		return (NULL);
 
-	for (i = 0; i < 0; i++)
+	for (i = 0; i < size; i++)
 	{
 		ar[i] = c;
 	}
