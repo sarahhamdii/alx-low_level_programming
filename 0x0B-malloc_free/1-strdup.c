@@ -10,12 +10,12 @@
 
 char *_strdup(char *str)
 {
-	unsigned int size, i;
+	int i;
 	char *s;
 
 	if (str == NULL)
 		return (NULL);
-	size = _strdup(str);
+	
 	s = mallco((i* sizeof(char)) +1);
 
 	if (s == NULL)
@@ -23,7 +23,7 @@ char *_strdup(char *str)
 
 	for (i = 0; i < size; i++)
 	{
-		s[i]=str[i];
+		s[i] = str[i];
 	}
 	return (s);
 }
