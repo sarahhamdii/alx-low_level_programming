@@ -8,7 +8,7 @@
  * Return: NULL
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	unsigned int size, i;
 	char *s;
