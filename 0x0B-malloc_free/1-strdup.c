@@ -15,6 +15,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
+	size = _strdup(str);
 	s = mallco(i* sizeof(char) +1);
 
 	if (s == NULL)
