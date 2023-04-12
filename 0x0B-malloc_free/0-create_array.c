@@ -5,7 +5,7 @@
 /**
  * *create_array - print in hexa
  * @size: the size of the memory to print
- *
+ * @c: character
  * Return: NULL or a pointer to the array
  */
 
