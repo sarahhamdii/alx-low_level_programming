@@ -13,7 +13,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int size1 = 0;
-	unsigned int lenght = sizeof(s2); 
+	unsigned int lenght = 0;
 	int i;
 	char *ar;
 
@@ -29,11 +29,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s2[n])
 		n++;
 
+	lenght = sizeof(s2);
 	ar = (char *)malloc(size1 + n + 1);
 
 	for (i = 0; i < size1; i++)
 		ar[i] = s1[i];
-	while (n >= lenght)
+	if (n >= lenght)
 		ar[i]=s2[i];
 	return (ar);
 }
