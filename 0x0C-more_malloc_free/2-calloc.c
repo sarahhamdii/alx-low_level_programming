@@ -4,11 +4,11 @@
 #include <string.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * _calloc - prints buffer in hexa
+ * @nmemb: first int
+ * @size: second int
  *
- * Return: Nothing.
+ * Return: void
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
