@@ -8,7 +8,7 @@
  * @s1: first character
  * @s2: second character
  * @n: number
- * Return: Always 0.
+ * Return: NULL
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
