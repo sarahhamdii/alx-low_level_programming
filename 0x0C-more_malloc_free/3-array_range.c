@@ -8,7 +8,7 @@
  * @min: small number
  * @max: large number
  *
- * Return: Nothing.
+ * Return: NULL
  */
 
 int *array_range(int min, int max)
