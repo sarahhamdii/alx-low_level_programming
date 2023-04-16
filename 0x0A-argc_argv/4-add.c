@@ -25,10 +25,10 @@ int main(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		if ((argv[i][n] < '0') || (argv[i][n] > '9'))
+		while ((argv[i][n] < '0') || (argv[i][n] > '9'))
 		{
-			printf("Error\n");
 			n++;
+			printf("Error\n");
 			return (1);
 		}
 		sum += atoi(argv[i]);
