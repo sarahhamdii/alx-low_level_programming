@@ -24,15 +24,12 @@ int main(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		for (n = 0; argv[n][i] >= 48 && argv[n][i] <= 57; n++)
+		for (n = 0; argv[i][i] >= 48 && argv[i][i] <= 57; n++)
 		{
 			printf("Error\n");
 			return (1);
-		}
-		if (argc > 1)
-		{
-			sum += atoi(argv[i]);
-		}
+		}		
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
