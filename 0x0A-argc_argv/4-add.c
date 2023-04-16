@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * main - print it's name
@@ -14,7 +15,6 @@ int main(int argc, char **argv)
 {
 	int i;
 	int sum = 0;
-	int n;
 
 	if (argc == 1)
 	{
@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		for (n = 0; argv[i][i] >= 48 && argv[i][i] <= 57; n++)
+		if ((argv[i][i] >= 48) && (argv[i][i] <= 57))
 		{
 			printf("Error\n");
 			return (1);
