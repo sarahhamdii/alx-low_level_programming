@@ -28,6 +28,7 @@ int main(int argc, char **argv)
 		if ((argv[i][n] < '0') || (argv[i][n] > '9'))
 		{
 			printf("Error\n");
+			n++;
 			return (1);
 		}
 		sum += atoi(argv[i]);
