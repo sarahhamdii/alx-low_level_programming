@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * main - print it's name
