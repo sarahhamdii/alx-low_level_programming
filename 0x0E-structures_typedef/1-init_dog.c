@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "dog.h"
-#include <stdlib.h>
 
 /**
- * init_dog - short description
+ * init_dog - initialize a variable
  * @name: first character
  * @owner: second character
  * @age: number
