@@ -2,12 +2,9 @@
 #include "dog.h"
 
 /**
- * struct dog - short description
- * @name: first character
- * @owner: second character
- * @age: number
+ * print_dog - print
+ * @d: pointer
  *
- * Return: NULL
  */
 
 void print_dog(struct dog *d)
