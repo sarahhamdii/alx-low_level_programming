@@ -12,11 +12,11 @@
  * Return: Always 0.
  */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	char *owner;
 	char age
-} dog;
+}
 
 #endif
