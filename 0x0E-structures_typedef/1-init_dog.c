@@ -9,7 +9,7 @@
  * @owner: second character
  * @age: number
  *
- * Return: Always 0.
+ * Return: void
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
@@ -21,6 +21,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	d->name = name;
 	d->age = age;
 	d->owner = owner;
-
-	return (0);
 }
