@@ -17,6 +17,6 @@ struct dog
 	char *name;
 	char *owner;
 	char age
-}
+};
 
 #endif
