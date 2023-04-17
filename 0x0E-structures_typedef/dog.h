@@ -4,7 +4,7 @@
 #include "dog.h"
 
 /**
- * typedef struct - check the code
+ * struct dog - short description
  * @name: first character
  * @owner: second character
  * @age: third character
@@ -16,7 +16,7 @@ struct dog
 {
 	char *name;
 	char *owner;
-	char age
+	float age;
 };
 
 #endif
