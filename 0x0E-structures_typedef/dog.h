@@ -1,5 +1,5 @@
-#ifndef my_dog
-#define my_dog
+#ifndef MY_DOG
+#define MY_DOG
 #include <stdio.h>
 #include "dog.h"
 
@@ -7,7 +7,7 @@
  * struct dog - short description
  * @name: first character
  * @owner: second character
- * @age: third character
+ * @age: number
  *
  * Return: Always 0.
  */
