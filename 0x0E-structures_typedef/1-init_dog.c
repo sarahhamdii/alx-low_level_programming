@@ -7,6 +7,7 @@
  * @name: first character
  * @owner: second character
  * @age: number
+ * @d: pointer
  *
  * Return: void
  */
