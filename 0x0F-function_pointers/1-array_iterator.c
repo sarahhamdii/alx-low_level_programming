@@ -3,19 +3,20 @@
 
 /**
  * array_iterator - prints an integer
- * @elem: the integer to print
- * @
+ * @array: array
+ * @size: the size of the array
+ * @action: a pointer to the function you need to use
  *
  * Return: Nothing.
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i;
+	unsigned int i;
 
-	if(action != NULL && size != NULL && array != NULL)
+	if(action != NULL && array != NULL)
 	{
-		for(i = 0, i < size, i++)
+		for(i = 0; i < size; i++)
 		{
 			action(array[i]);
 		}
