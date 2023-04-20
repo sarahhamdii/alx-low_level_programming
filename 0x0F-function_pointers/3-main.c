@@ -4,10 +4,10 @@
 #include <string.h>
 
 /**
- * struct op - Struct op
- *
- * @op: The operator
- * @f: The function associated
+ * main - check the code
+ * @argc: argument
+ * @argv: array
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
