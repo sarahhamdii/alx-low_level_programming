@@ -2,7 +2,7 @@
 /**
  * op_add - calculate summation
  * @a: first number
- * @b: second number 
+ * @b: second number
  *
  * Return: (a + b)
  */
