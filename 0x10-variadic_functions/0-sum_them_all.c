@@ -6,12 +6,13 @@
  * sum_them_all - calculate summation
  * @n: constant number
  *
- * Return: Always 0.
+ * Return: sum
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int i, sum = 0;
+	unsigned int i;
+	int sum = 0;
 	va_list a;
 
 	if (n == 0)
