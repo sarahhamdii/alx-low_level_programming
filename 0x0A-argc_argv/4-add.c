@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 {
 	int i;
 	int sum = 0;
-	int n = 0;
+	int n;
 
 	if (argc == 1)
 	{
@@ -24,11 +24,10 @@ int main(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		while ((argv[i][n] < '0') || (argv[i][n] > '9'))
+		for (n = 0; ((argv[i][n] < '0') || (argv[i][n] > '9')); n++)
 		{
 			printf("Error\n");
 			return (1);
-			n++;
 		}
 		sum += atoi(argv[i]);
 	}
