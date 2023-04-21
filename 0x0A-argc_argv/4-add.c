@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		for (n = 0; ((argv[i][n] <= '0') && (argv[i][n] >= '9')); n++)
+		for (n = 0; ((argv[i][n] < '0') && (argv[i][n] > '9')); n++)
 		{
 			printf("Error\n");
 			return (1);
