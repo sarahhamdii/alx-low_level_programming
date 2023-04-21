@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		for (n = 0; (argv[i][n] <= 48) || (argv[i][n] >= 57); n++)
+		for (n = 0; (argv[i][n] <= 48) && (argv[i][n] <= 57); n++)
 		{
 			printf("Error\n");
 			return (1);
