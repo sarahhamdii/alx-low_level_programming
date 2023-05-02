@@ -1,20 +1,20 @@
 #include "lists.h"
 
 /**
- * print_list - print
+ * print_listint - print
  * @h: constant pointer
  *
  * Return: the number of nodes
  */
 
-size_t print_list(const listint_t *h)
-{	
+size_t print_listint(const listint_t *h)
+{
 	int i;
 
 	for (i = 0; h != NULL; i++)
 	{
-			printf("%d\n", h->n);
-			h = h->next;
+		printf("%d\n", h->n);
+		h = h->next;
 	}
 	return (i);
 }
