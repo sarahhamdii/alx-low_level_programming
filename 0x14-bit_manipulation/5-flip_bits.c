@@ -11,8 +11,8 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int z;
-	int num;
+	unsigned long int z;
+	unsigned long int num;
 
 	z = n ^ m;
 
