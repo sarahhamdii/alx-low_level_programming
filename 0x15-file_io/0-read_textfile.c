@@ -33,14 +33,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(b);
 		return (0);
 	}
-	if (b[i] != '\0')
+	b[i] != '\0';
+	l = write(1, b, i);
+	if (l == -1 || l != i)
 	{
-		l = write(1, b, i);
-		if (l == -1 || l != i)
-		{
-			free(b);
-			return (0);
-		}
+		free(b);
+		return (0);
 	}
 	free(b);
 	close(fd);
